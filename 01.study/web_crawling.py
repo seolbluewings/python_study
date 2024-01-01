@@ -134,4 +134,3 @@ for i in range(0, 100) :
         prd_df1 = prd_df1.append(df).reset_index(drop = True)
 
 prd_df1.to_csv(r'C:\Users\seolbluewings\Desktop\sample\www_df.csv',sep=',',index = True)
-
